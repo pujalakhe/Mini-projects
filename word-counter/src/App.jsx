@@ -3,6 +3,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./WordCounter.css";
 
+import DarkMode from "./components/DarkMode/DarkMode";
+
 function App() {
   const [text, setText] = useState("");
   const [charCount, setCharCount] = useState(0);
@@ -25,6 +27,8 @@ function App() {
   };
   return (
     <>
+      {/* <DarkMode /> */}
+
       <div className="container">
         <div className="container-middle">
           <div className="right">
